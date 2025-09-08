@@ -649,7 +649,7 @@ const Demo2 = () => {
           />
           <div className="absolute top-[200px] md:top-[300px] lg:top-[350px] left-1/2 -translate-x-1/2 w-full max-w-[900px] px-4 h-auto">
             <h2 className="text-white text-3xl md:text-4xl font-bold mb-8 text-center">
-              What's New at Brand
+              What&apos;s New at Brand
             </h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
