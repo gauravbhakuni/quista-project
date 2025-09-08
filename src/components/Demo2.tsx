@@ -196,7 +196,7 @@ const Demo2 = () => {
         </div>
 
         {/* our journey video section */}
-        <div className="w-full flex justify-center items-center">
+        <div id="whoweare" className="w-full flex justify-center items-center">
           <div className="relative w-full h-[600px] md:h-[690px] lg:h-[790px] flex justify-center items-center overflow-hidden mx-2 px-6 md:mx-10 md:px-10 xl:mx-20 xl:px-20">
             {/* Background video */}
             <video
@@ -388,7 +388,7 @@ const Demo2 = () => {
             </svg>
           </div>
 
-          <div className="absolute top-[100px] md:top-[200px] xl:top-[450px] w-full md:w-[700px] lg:w-[870px] xl:w-[1280px] h-auto text-white pl-[20px] md:pl-[80px] xl:pl-[120px] px-6 py-16">
+          <section id="technology" className="absolute top-[100px] md:top-[200px] xl:top-[450px] w-full md:w-[700px] lg:w-[870px] xl:w-[1280px] h-auto text-white pl-[20px] md:pl-[80px] xl:pl-[120px] px-6 py-16">
             <h2 className="text-xl md:text-[44px] font-bold mb-12">
               Advanced Materials and <br /> Integrative Solutions
             </h2>
@@ -448,7 +448,7 @@ const Demo2 = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
 
         {/* bubbles video section */}
@@ -485,7 +485,7 @@ const Demo2 = () => {
           {/* Content Section */}
           <div className="flex-1">
             {/* Heading + Button */}
-            <div className="pt-[100px] md:pt-[200px] lg:pt-[300px] flex flex-col sm:flex-row sm:items-center sm:justify-between mb-12">
+            <div  id="solutions" className="mt-[100px] md:mt-[200px] lg:mt-[300px] flex flex-col sm:flex-row sm:items-center sm:justify-between mb-12">
               <h2 className="text-[20px] md:text-[44px] font-bold max-w-xl">
                 The Science Behind Our <br /> Innovative Solutions
               </h2>
@@ -639,7 +639,7 @@ const Demo2 = () => {
         </div>
 
         {/*news letter svg section */}
-        <div className="relative w-full max-w-[1150px] aspect-[1150/1648]">
+        <div id="newsroom" className="relative w-full max-w-[1150px] aspect-[1150/1648]">
           <Image
             src="/svgs/last-svg.png" // place this inside /public
             alt="Gradient curve line"
@@ -696,7 +696,7 @@ const Demo2 = () => {
         </div>
 
         {/* last video section */}
-        <div className="w-full flex justify-center items-center">
+        <div id="careers" className="w-full flex justify-center items-center">
           <div className="relative w-full min-h-[720px] flex justify-center items-center overflow-hidden">
             {/* Background video */}
             <video
